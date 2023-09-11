@@ -23,8 +23,15 @@ body {
     flex-wrap: wrap;
 }
 
-.pd {
+.pd-nav {
     padding: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.text-deco {
     text-decoration: none;
 }
 
@@ -42,6 +49,10 @@ body {
 
 .white {
     color: white;
+}
+
+.pd-nav-special {
+    padding: 5px 15px;
 }
 
 
