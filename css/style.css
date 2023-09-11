@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+.bg-white {
+    background-color: white;
+}
+
+.nav-container {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pd {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+
+.nav-row {
+    justify-content: space-between;
+}
+
+.bg-blue {
+    background-color: #0061FF;
+}
+
+.white {
+    color: white;
+}
+
+
+
+
+
