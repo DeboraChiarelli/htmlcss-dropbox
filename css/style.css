@@ -62,8 +62,7 @@ body {
 
 .medium-container {
     width: 1200px;
-    padding: 100px;
-    border: 1px purple solid;   
+    padding: 50px;  
 }
 
 .container {
@@ -84,22 +83,43 @@ body {
 
 .title {
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .row-title {
     justify-content: center;
 }
 
-.pd-p {
-    padding-top: 40px;
+.margin-special {
+    margin-bottom: 20px;
 }
 
-.anchor-hero {
-    padding-top: 40px;
+.margin2-special {
+    margin: 20px 0;
+    display: inline-block;
 }
 
 
+.jumbo {
+    width: 100%; 
+    margin-bottom: -150px;  
+}
 
+.container-cards {
+    width: 1000px;
+}
+
+.title2 {
+    font-size: 40px;
+}
+
+.row-title-special {
+    margin-top: 200px;
+}
+
+.circle {
+    margin-top: 20px;
+}
 
 
 
