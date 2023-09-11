@@ -55,6 +55,52 @@ body {
     padding: 5px 15px;
 }
 
+/* Hero */
+.maxi-container {
+    max-width: 100%;
+}
+
+.medium-container {
+    width: 1200px;
+    padding: 100px;
+    border: 1px purple solid;   
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.bg-lightblue {
+    background-color: #B4D0E7;
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) *5);
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) *7);
+}
+
+.title {
+    font-size: 50px;
+}
+
+.row-title {
+    justify-content: center;
+}
+
+.pd-p {
+    padding-top: 40px;
+}
+
+.anchor-hero {
+    padding-top: 40px;
+}
+
+
+
+
 
 
 
