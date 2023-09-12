@@ -8,6 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul, li {
+    list-style: none;
+}
+
 /* header */
 
 .bg-white {
@@ -51,7 +55,7 @@ body {
     color: white;
 }
 
-.pd-nav-special {
+.padding-nav-special {
     padding: 5px 15px;
 }
 
@@ -153,3 +157,19 @@ body {
     display: block;
 }
 
+.card-list > li {
+    margin: 15px 0;
+}
+
+.margin3-special {
+    margin: 40px 20px;
+    display: inline-block;
+}
+
+.button {
+    margin-bottom: 50px;
+}
+
+.card-list2 {
+    margin-bottom: 50px;
+}
