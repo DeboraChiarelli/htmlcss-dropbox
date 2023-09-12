@@ -107,6 +107,7 @@ body {
 
 .container-cards {
     width: 1000px;
+    margin-top: 200px;
 }
 
 .title2 {
@@ -117,8 +118,8 @@ body {
     margin-top: 200px;
 }
 
-.circle {
-    margin-top: 20px;
+.row-circle {
+    margin-top: 40px;
 }
 
 
