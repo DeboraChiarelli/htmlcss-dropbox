@@ -61,7 +61,7 @@ body {
 }
 
 .medium-container {
-    width: 1200px;
+    max-width: 1200px;
     padding: 50px;  
 }
 
@@ -106,23 +106,26 @@ body {
 }
 
 .container-cards {
-    width: 900px;
+    max-width: 900px;
     margin-top: 200px;
 }
 
 .title2 {
     font-size: 40px;
-}
-
-.row-circle {
-    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .radio {
     margin-top: 40px;
 }
 
+.col-12 {
+    calc: ((100% / 12) * 12)
+}
 
+.col-4 {
+    calc: ((100% / 12) * 4)
+}
 
 
 
