@@ -99,13 +99,12 @@ body {
     display: inline-block;
 }
 
-
 .jumbo {
     width: 100%; 
     margin-bottom: -150px;  
 }
 
-.container-cards {
+.container-cards-radio {
     max-width: 900px;
     margin-top: 200px;
 }
@@ -120,12 +119,37 @@ body {
 }
 
 .col-12 {
-    calc: ((100% / 12) * 12)
+    flex-basis: calc((100% / 12) * 12);
 }
 
 .col-4 {
-    calc: ((100% / 12) * 4)
+    flex-basis: calc((100% / 12) * 4);
 }
 
+.container-cards {
+    max-width: 900px;
+    margin-top: 100px;
+}
 
+.card-border {
+    border: 1px grey solid;
+    padding: 20px;
+}
+
+.card-header {
+    border-bottom: 1px grey solid;
+    margin-bottom: 25px;
+}
+
+.card-body {
+    margin-bottom: 25px;
+}
+
+.plan-title {
+    font-size: 25px;
+}
+
+.price {
+    display: block;
+}
 
