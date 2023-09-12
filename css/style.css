@@ -106,7 +106,7 @@ body {
 }
 
 .container-cards {
-    width: 1000px;
+    width: 900px;
     margin-top: 200px;
 }
 
@@ -114,11 +114,11 @@ body {
     font-size: 40px;
 }
 
-.row-title-special {
-    margin-top: 200px;
+.row-circle {
+    margin-top: 40px;
 }
 
-.row-circle {
+.radio {
     margin-top: 40px;
 }
 
