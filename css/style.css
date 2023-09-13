@@ -69,6 +69,10 @@ ul, li {
     padding: 50px;  
 }
 
+.small-container {
+    max-width: 900px;
+}
+
 .container {
     margin: 0 auto;
 }
@@ -200,7 +204,6 @@ ul, li {
 }
 
 .logo-company [class^='col-4'] {
-    border: 1px black solid;
     padding: 0;
 }
 
@@ -241,4 +244,56 @@ ul, li {
 
 .logo-discovery {
     width: 50%;
+    margin-bottom: 20px;   
+}
+
+.line-logo {
+    margin-bottom: 20px;
+}
+
+.bg-darkblue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.plan-task {
+    font-size: 30px;
+}
+
+.row-task {
+    justify-content: space-between;
+}
+
+.container-task {
+    padding: 80px 0;
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+
+.button-task {
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.questions {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.questions-drop {
+    line-height: 80px;
+}
+
+.bg-black {
+    background-color: black;
+    padding: 10px;
 }
