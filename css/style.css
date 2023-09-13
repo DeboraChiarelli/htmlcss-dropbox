@@ -198,3 +198,47 @@ ul, li {
 .title3 {
     margin-bottom: 40px;
 }
+
+.logo-company [class^='col-4'] {
+    border: 1px black solid;
+    padding: 0;
+}
+
+.flex-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-logo {
+    aspect-ratio: 1/1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-darkred {
+    background-color: #61082B;
+}
+
+.invert {
+    filter: invert(100%);
+    width: 60%;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.logo-company .bg-discovery {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.logo-discovery {
+    width: 50%;
+}
