@@ -191,10 +191,10 @@ ul, li {
     margin-bottom: 20px;
 }
 
-img {
+.card-image {
     width: 100%;
 }
 
-.text {
-    margin-bottom: 10px;
+.title3 {
+    margin-bottom: 40px;
 }
